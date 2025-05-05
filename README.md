@@ -1,80 +1,108 @@
-# Airbnb Clone Project
+# 🏡 AirBnB Clone Project
 
 ## 📖 Project Overview
 
-This project is a full-stack web application inspired by the popular accommodation booking platform, **Airbnb**. The goal is to create a functional clone that allows users to browse property listings, view detailed information, and complete secure bookings. 
-
-The project will cover every major aspect of modern web development including frontend design, backend API development, database management, and deployment. It is also an opportunity to practice collaboration within a development team with clearly defined roles.
-
----
-
-## 🎯 Project Goals
-
-- Implement responsive and user-friendly UI/UX designs.
-- Structure and build a complex full-stack web application.
-- Collaborate effectively within a team environment.
-- Develop reusable and scalable frontend components.
-- Learn and apply best practices for web application development and deployment.
-
----
+This project is a full-stack clone of the popular accommodation booking platform, AirBnB. The goal is to build a functional web application where users can browse property listings, view detailed property information, and complete bookings. The project covers frontend development, backend APIs, database design, and deployment.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript, React
-- **Backend:** (to be determined by the team)
-- **Version Control:** Git, GitHub
-- **Design Tools:** Figma (for UI/UX design)
+- **Frontend:** HTML, CSS, JavaScript (React)
+- **Version Control:** Git & GitHub
+- **Design Tools:** Figma for UI/UX Design
 
 ---
 
-## 📐 Key Features
+## 🎨 UI/UX Design Planning
 
-- Property search and filtering system
-- Detailed property listing pages with images and booking forms
-- Secure and simple checkout process
+### 📌 Design Goals
+
+- Deliver an intuitive and efficient booking experience.
+- Maintain visual consistency across all pages and components.
+- Ensure fast loading times for smooth navigation.
+- Prioritize mobile responsiveness with a mobile-first design.
+- Meet accessibility standards (WCAG) for inclusive usability.
+
+### 🗝️ Key Features to Implement
+
+- Property search and filtering
+- Grid view for property listings
+- Property detail page with images, description, and booking form
+- Simple checkout flow for confirming bookings
 - User authentication system
-- Fully responsive, mobile-first design
-- Accessibility compliant UI
+- Responsive, accessible navigation
 
----
+### 📄 Primary Page Descriptions
 
-## 📝 UI/UX Design Specifications
+| Page                    | Description                                                                                  |
+|:------------------------|:--------------------------------------------------------------------------------------------|
+| **Property Listing View** | Displays a grid of available properties with search filters (price, location, type). Includes property image, price, location, and rating. |
+| **Listing Detailed View** | Provides a detailed view of a selected property, with images, amenities, description, location map, and a booking form. |
+| **Simple Checkout View**  | A minimal and clear booking confirmation and payment page with booking summary, pricing, and secure payment options. |
+
+### 🎨 Figma Design Specifications
+
+#### 📚 Color Styles
 
 - **Primary Color:** `#FF5A5F`
 - **Secondary Color:** `#008489`
-- **Background:** `#FFFFFF`
+- **Background Color:** `#FFFFFF`
 - **Text Color:** `#222222`
 - **Secondary Text Color:** `#717171`
 
-**Typography:**
-- **Primary Font:** Circular, Medium (500), 16px
-- **Headings:** Circular, Bold (700), 24px–32px
-- **Secondary Text:** Circular, Book (400), 14px
+#### ✒️ Typography
+
+- **Primary Font:** Circular
+- **Font Weights:** 
+  - Book (400)
+  - Medium (500)
+  - Bold (700)
+- **Font Sizes:** 
+  - Headings: 24px - 32px
+  - Body Text: 16px
+  - Secondary Text: 14px
+
+#### 🎯 Why Identifying Design Properties Matters
+
+Understanding the design properties of a mockup ensures the final implementation aligns closely with the intended user experience. It helps maintain:
+
+- **Consistency in UI components and layouts**
+- **Visual harmony through colors, typography, and spacing**
+- **Accessibility compliance**
+- **Efficient collaboration between designers and developers**
 
 ---
 
-## 👥 Roles and Responsibilities
+## 🧑‍💼 Project Roles and Responsibilities
 
-| Role              | Responsibilities                                                 |
-|:------------------|:----------------------------------------------------------------|
-| **Project Manager** | Oversees timeline, coordinates the team, manages deliverables   |
-| **Frontend Developers** | Implements UI components, ensures responsive design      |
-| **Backend Developers** | Builds APIs, manages database, implements business logic |
-| **Designers**      | Creates Figma mockups, maintains the design system               |
-| **QA/Testers**     | Writes test cases, performs testing, reports bugs                |
-| **DevOps Engineers** | Manages deployment, CI/CD pipeline, and infrastructure       |
-| **Product Owner**  | Defines requirements, prioritizes features, represents stakeholders |
-| **Scrum Master**   | Facilitates agile processes, removes blockers, organizes meetings |
-
----
-
-## 📦 Planned UI Components
-
-- **Navbar** (logo, search bar, user navigation, responsive menu)
-- **Property Card** (image, price, location, rating, favorite button)
-- **Footer** (site links, company info, social media links)
+| Role               | Responsibilities                                                                                      |
+|:------------------|:-----------------------------------------------------------------------------------------------------|
+| **Project Manager**    | Oversee project timeline, coordinate tasks, manage deliverables, and ensure team collaboration.       |
+| **Frontend Developers**| Build UI components, implement responsive design, and connect frontend with backend APIs.             |
+| **Backend Developers** | Develop server-side APIs, manage databases, handle authentication, and implement business logic.     |
+| **Designers**          | Create UI mockups in Figma, maintain a design system, and ensure usability and UX quality.            |
+| **QA/Testers**         | Write test cases, conduct functional and usability testing, and report bugs.                          |
+| **DevOps Engineers**   | Handle deployment, manage CI/CD pipelines, and maintain server infrastructure.                        |
+| **Product Owner**      | Define product requirements, prioritize features, and act as the bridge between users and the team.   |
+| **Scrum Master**       | Facilitate agile processes, conduct meetings, remove blockers, and promote team productivity.         |
 
 ---
 
-## 📌 Repository Structure (to be updated)
+## 🖥️ UI Component Patterns
+
+### Planned Components
+
+- **Navbar**
+  - Contains the application logo, search bar, user navigation links, and a responsive mobile menu.
+
+- **Property Card**
+  - Displays property image, title, price, location, and rating.
+  - Includes a favorite (heart) button.
+  - Responsive layout for mobile and desktop views.
+
+- **Footer**
+  - Contains essential site links, company info, social media links, and copyright.
+
+Each component will be designed for **reusability**, **accessibility**, and **consistency** across the entire application.
+
+---
 
